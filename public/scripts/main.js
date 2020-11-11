@@ -1,3 +1,7 @@
+importScripts('/__/firebase/8.0.1/firebase-app.js');
+importScripts('/__/firebase/8.0.1/firebase-messaging.js');
+importScripts('/__/firebase/init.js');
+
 // [START get_messaging_object]
 // Retrieve Firebase Messaging object.
 const messaging = firebase.messaging();
